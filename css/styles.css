@@ -1,4 +1,4 @@
-h1 {
+#name {
     font-family: papyrus;
     color: red;
     text-align: center;  
@@ -7,11 +7,13 @@ h1 {
     color: red;
     font-family: papyrus;
     text-align: center;
-
 }
 
+
+
 body {
-    background-image: url("https://pizzaschool.com/wp-content/uploads/2016/10/Pizza-Website-Background-3.jpg")
+    background-image: url("https://pizzaschool.com/wp-content/uploads/2016/10/Pizza-Website-Background-3.jpg");
+    background-repeat: no-repeat;
 }
 
 h3 {
@@ -33,5 +35,34 @@ footer {
 }
 
 section {
+    text-align: center;
+}
+
+
+.pizza {
+    color: black;
+    text-align: center;
+
+}
+
+.pizzaName {
+    font-size: 25px
+}
+#topMenu {
+    color: black;
+}
+li {
+    color: black;
+    text-align: justify;
+}
+
+#subscribe {
+    text-align: center;
+}
+
+#visit {
+    text-align: center;
+}
+.hours, #street, #map {
     text-align: center;
 }
